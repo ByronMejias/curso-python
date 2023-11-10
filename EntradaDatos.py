@@ -1,0 +1,6 @@
+nombre = input('Ingresa tu nombre: ')
+apellido = input('Ingresa tu apellido: ')
+edad = int(input('Ingresa tu edad: '))
+sexo = input('Ingresa tu sexo: ')
+print("Hola mi nombre es",nombre, apellido, "y tengo", edad, "años")
+print("Hola mi nombre es: {} {} y tengo {} años, sexo {}".format(nombre, apellido, edad, sexo))
