@@ -3,12 +3,12 @@ try:
 	conexion = pymysql.connect(host='localhost',
                              user='root',
                              password='',
-                             db='oxfactura')
+                             db='test')
 	try:
 		with conexion.cursor() as cursor:
 			# En este caso no necesitamos limpiar ningún dato
 			sql = "SELECT * FROM clients WHERE business_name like %s;"
-			where = 'Byroneman'
+			where = 'NOMBRE 1'
 			cursor.execute(sql, (where))
  
 			# Con fetchall traemos todas las filas

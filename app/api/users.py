@@ -13,9 +13,9 @@ def welcome():
 
 appUrl = '/app/v1/users'
 ListUser = [
-                {"id": "0", "nombre": "Luimar", "apellido": "Mejias"},
-                {"id": "1", "nombre": "Bairon", "apellido": "Carrillo"},
-                {"id": "2", "nombre": "Andres", "apellido": "Anton"}
+                {"id": "0", "nombre": "NOMBRE1", "apellido": "APELLIDO1"},
+                {"id": "1", "nombre": "NOMBRE2", "apellido": "APELLIDO2"},
+                {"id": "2", "nombre": "NOMBRE3", "apellido": "APELLIDO3"}
            ]
 
 # INDEX

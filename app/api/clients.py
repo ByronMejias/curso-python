@@ -7,7 +7,7 @@ from flask_marshmallow import Marshmallow
 app = Flask(__name__)
 
 # BASE DE DATOS
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost:3306/oxfactura'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost:3306/test'
 
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
